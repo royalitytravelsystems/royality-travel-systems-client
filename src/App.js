@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import { Route, withRouter, Switch } from 'react-router';
+import Authorization from './Authorization';
+import Header from './features/Header';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const Home = async () => {
+  const component = await import('./features/Home');
+  return component.default;
+};
+
+export class App extends Component {
+
+  appJsx = () => {
+    return(
+      <Switch>
+        <Route exact path='/' component={Authorization(Home)} />
+        <Route path='/home' component={Authorization(Home)} />
+      </Switch>
+    );
+  }
+
+  render() {
+    return (
+      <div>
+        <Header />
+        {this.appJsx()}
+      </div>
+    );
+  }
 }
 
-export default App;
+export default withRouter(App);
