@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
 import { Route, withRouter, Switch } from 'react-router';
 import Authorization from './Authorization';
-import Header from './features/Header';
+import HeaderContainer from './features/Header';
 
 const Home = async () => {
   const component = await import('./features/Home');
+  return component.default;
+};
+
+const AboutComponent = async () => {
+  const component = await import('./features/About');
   return component.default;
 };
 
@@ -15,6 +20,7 @@ export class App extends Component {
       <Switch>
         <Route exact path='/' component={Authorization(Home)} />
         <Route path='/home' component={Authorization(Home)} />
+        <Route path='/about' component={Authorization(AboutComponent)} />
       </Switch>
     );
   }
@@ -22,7 +28,7 @@ export class App extends Component {
   render() {
     return (
       <div>
-        <Header />
+        <HeaderContainer />
         {this.appJsx()}
       </div>
     );

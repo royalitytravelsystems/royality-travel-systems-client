@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import logo from './../../../assets/images/tour.png';
 
 const TopBar = props => {
+  const { location } = props;
   return(
     <div className={ props.className+ " top-bar"}>
       <Container fluid="md">
@@ -15,7 +16,7 @@ const TopBar = props => {
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav"  />
             <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="cl-effect-15 nav navbar-nav" as="ul">
+              <Nav className="cl-effect-15 nav navbar-nav" as="ul" variant="pills" activeKey={location.pathname}>
                 <Nav.Item as="li">
                   <Nav.Link href="/">Home</Nav.Link>
                 </Nav.Item>
@@ -34,6 +35,7 @@ const TopBar = props => {
 
 TopBar.propTypes = {
   className: PropTypes.string,
+  location: PropTypes.object,
 };
 
 export default TopBar;

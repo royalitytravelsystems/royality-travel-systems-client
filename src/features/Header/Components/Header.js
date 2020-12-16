@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faInstagramSquare, faYoutubeSquare } from '@fortawesome/free-brands-svg-icons';
 import { faMobileAlt, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import PropTypes from 'prop-types';
-
+import { FACEBOOK_URL, INSTAGRAM_URL, YOUTUBE_URL } from '../../../utils/Config';
 
 const Header = props => {
   return(
@@ -13,9 +13,9 @@ const Header = props => {
             <Row>
               <Col className="top-middle" md={6}>
                 <ul>
-                  <li><a href="#"><i className="fa fa-facebook"><FontAwesomeIcon icon={faFacebookF}/></i></a></li>
-                  <li><a href="#"><i className="fa fa-instagram"><FontAwesomeIcon icon={faInstagramSquare}/></i></a></li>
-                  <li><a href="#"><i className="fa fa-youtube"><FontAwesomeIcon icon={faYoutubeSquare}/></i></a></li>
+                  <li><a href={FACEBOOK_URL}><i className="fa fa-facebook"><FontAwesomeIcon icon={faFacebookF}/></i></a></li>
+                  <li><a href={INSTAGRAM_URL}><i className="fa fa-instagram"><FontAwesomeIcon icon={faInstagramSquare}/></i></a></li>
+                  <li><a href={YOUTUBE_URL}><i className="fa fa-youtube"><FontAwesomeIcon icon={faYoutubeSquare}/></i></a></li>
                 </ul>
               </Col>
               <Col className="top-left" md={6}>

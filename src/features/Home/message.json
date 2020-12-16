@@ -1,0 +1,28 @@
+{
+    "CAROUSAL": {
+        "SLIDE_1":{
+            "TEXT": "Discover your favorite places with us",
+            "DESC": "Travel to your dream destination without going around in circles",
+            "PHOTO_CREDIT": "https://unsplash.com/@qriusv?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText",
+            "PHOTO_AUTHOR": "Vivek Kumar",
+            "PHOTO_SOURCE":"https://unsplash.com/s/photos/india?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText",
+            "PHOTO_SOURCE_NAME": "Unsplash"
+        },
+        "SLIDE_2":{
+            "TEXT": "Lets enjoy the wonders of nature",
+            "DESC": "Travel to your dream destination without going around in circles",
+            "PHOTO_CREDIT": "https://unsplash.com/@qriusv?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText",
+            "PHOTO_AUTHOR": "Vivek Kumar",
+            "PHOTO_SOURCE":"https://unsplash.com/s/photos/india?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText",
+            "PHOTO_SOURCE_NAME": "Unsplash"
+        },
+        "SLIDE_3":{
+            "TEXT": "Safe way to travel",
+            "DESC": "Travel to your dream destination without going around in circles",
+            "PHOTO_CREDIT": "https://unsplash.com/@whatsabhidoing?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText",
+            "PHOTO_AUTHOR": "Abhishek Prasad",
+            "PHOTO_SOURCE":"https://unsplash.com/s/photos/india?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText",
+            "PHOTO_SOURCE_NAME": "Unsplash"
+        }
+    }
+}
