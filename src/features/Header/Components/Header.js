@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faInstagramSquare, faYoutubeSquare } from '@fortawesome/free-brands-svg-icons';
-import { faMobileAlt, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
+import { faMobileAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import PropTypes from 'prop-types';
 import { FACEBOOK_URL, INSTAGRAM_URL, YOUTUBE_URL } from '../../../utils/Config';
 
@@ -20,8 +20,8 @@ const Header = props => {
               </Col>
               <Col className="top-left" md={6}>
                   <ul>
-                    <li><i className="fa fa-mobile" aria-hidden="true"><FontAwesomeIcon icon={faMobileAlt}/></i> +91 1234567890</li>
-                    <li><i className="fa fa-map-marker" aria-hidden="true"><FontAwesomeIcon icon={faMapMarkerAlt}/></i> Kochi, Kerala, India </li>
+                    <li><i className="fa fa-mobile" aria-hidden="true"><FontAwesomeIcon icon={faMobileAlt}/></i> +91 808686 66993</li>
+                    <li><i className="fa fa-map-marker" aria-hidden="true"><FontAwesomeIcon icon={faEnvelope}/></i> info@royalitytravelsystems.com </li>
                   </ul>
                 </Col>
             </Row>

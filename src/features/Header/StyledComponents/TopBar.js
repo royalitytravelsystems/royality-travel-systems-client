@@ -74,7 +74,7 @@ background:none;
 border-color: rgba(103, 80, 31, 0);
 }
 .navbar-default .navbar-brand {
-color:#ed1c24 !important;
+
 font-size: 35px;
 font-weight: 600;
 text-decoration: none;
@@ -102,7 +102,6 @@ min-height: inherit;
 margin-top: 5px;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-color:#ed1c24 !important;
 background: none;
 }
 .navbar-default .navbar-nav > li > a {
@@ -125,15 +124,10 @@ margin-left: 0em;
 float: right !important;
 margin: 6px 0 0;
 }
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-color:#ed1c24;
-}
+
 .nav > li > a,.agile_short_dropdown li a {
 }
-.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
-color: #ed1c24 !important;
-background-color: rgba(76, 76, 76, 0) ! important
-}
+
 .dropdown-menu {
 background-color: rgba(0, 0, 0, 0.24) ! important;
 }
@@ -175,6 +169,13 @@ padding: 8px 20px;
 color: #fff;
 text-align: center;
 }
+.nav-link .active {
+  background-color: #651d31;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: #651d31;
+}
 
 @media screen and (max-width: 991px){
   .navbar-nav {
@@ -200,12 +201,8 @@ text-align: center;
   }
 }
 @media (max-width: 767px){
-  .navbar-default .navbar-toggle {
-    border-color: #ed1c24;
-  }
-  .navbar-default .navbar-toggle .icon-bar {
-    background-color: #ed1c24;
-  }
+  
+ 
   .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
     background-color:transparent;
   }
@@ -252,6 +249,7 @@ text-align: center;
     width:80%;
   }
 }
+
 @media (max-width: 736px){
   .navbar {
     padding:0;

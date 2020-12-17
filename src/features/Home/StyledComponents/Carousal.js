@@ -84,6 +84,7 @@ export const ControlledCarousal = styled(CarousalComponent)`
    .carousel-caption {
         background-color:#000;
        opacity:0.5;
+       bottom:500px;
    }
    .photo-copyright{
         position: absolute;
@@ -112,6 +113,7 @@ export const ControlledCarousal = styled(CarousalComponent)`
    .carousel-caption {
        background-color:#000;
        opacity:0.5;
+       bottom:20px;
    }
    .photo-copyright{
     font-size:5px;
