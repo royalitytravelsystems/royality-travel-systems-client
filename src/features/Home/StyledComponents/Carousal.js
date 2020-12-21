@@ -10,9 +10,9 @@ export const ControlledCarousal = styled(CarousalComponent)`
     min-height:300px;
     }
     .banner{
-    background:url(${logo}) no-repeat 0px 0px;
     background-size:cover;
     position: relative;
+    max-height:300px;
     }
     .w3-banner{
         padding: 13em 0 17em 0;
@@ -82,9 +82,8 @@ export const ControlledCarousal = styled(CarousalComponent)`
         margin: 15px 0;
     }
    .carousel-caption {
-        background-color:#000;
-       opacity:0.5;
-       bottom:500px;
+       
+       bottom:600px;
    }
    .photo-copyright{
         position: absolute;
@@ -94,6 +93,8 @@ export const ControlledCarousal = styled(CarousalComponent)`
         color: #fff;
         text-align: center;
         font-size:10px;
+   }
+   @media screen and (max-width: 991px){
    }
    @media screen and (max-width: 414px){
     .banner-text {
@@ -111,8 +112,7 @@ export const ControlledCarousal = styled(CarousalComponent)`
         font-size:12px;
     }
    .carousel-caption {
-       background-color:#000;
-       opacity:0.5;
+       background-color:#651d31;
        bottom:20px;
    }
    .photo-copyright{

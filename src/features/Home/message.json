@@ -1,28 +1,16 @@
 {
-    "CAROUSAL": {
-        "SLIDE_1":{
+    "MESSAGE": {
+        "CAPTION":{
             "TEXT": "Discover your favorite places with us",
-            "DESC": "Travel to your dream destination without going around in circles",
-            "PHOTO_CREDIT": "https://unsplash.com/@qriusv?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText",
-            "PHOTO_AUTHOR": "Vivek Kumar",
-            "PHOTO_SOURCE":"https://unsplash.com/s/photos/india?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText",
-            "PHOTO_SOURCE_NAME": "Unsplash"
+            "DESC": "Travel to your dream destination without going around in circles"
         },
-        "SLIDE_2":{
+        "WELCOME":{
             "TEXT": "Lets enjoy the wonders of nature",
-            "DESC": "Travel to your dream destination without going around in circles",
-            "PHOTO_CREDIT": "https://unsplash.com/@qriusv?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText",
-            "PHOTO_AUTHOR": "Vivek Kumar",
-            "PHOTO_SOURCE":"https://unsplash.com/s/photos/india?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText",
-            "PHOTO_SOURCE_NAME": "Unsplash"
+            "DESC": "Travel to your dream destination without going around in circles"
         },
-        "SLIDE_3":{
-            "TEXT": "Safe way to travel",
-            "DESC": "Travel to your dream destination without going around in circles",
-            "PHOTO_CREDIT": "https://unsplash.com/@whatsabhidoing?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText",
-            "PHOTO_AUTHOR": "Abhishek Prasad",
-            "PHOTO_SOURCE":"https://unsplash.com/s/photos/india?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText",
-            "PHOTO_SOURCE_NAME": "Unsplash"
+        "SITE":{
+            "NAME": "Royality Travel System",
+            "DESC": "We are a Kochi based travel agents focussed on custom tour packages, cab services and one way cab services"
         }
     }
 }

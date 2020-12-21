@@ -1,14 +1,16 @@
 import React, { Component} from 'react';
 import PropTypes from 'prop-types';
-import { ControlledCarousal } from '../StyledComponents/Carousal';
+import { BannerComponent } from '../StyledComponents/BannerComponent';
+import { WelcomeComponent } from '../StyledComponents/WelcomeComponent';
 
 export class HomeContainer extends Component{
 
   render(){
     return(
-      <div className={this.props.className}>
-      <ControlledCarousal />
-     </div>
+      <main className={this.props.className}>
+        <BannerComponent />
+        <WelcomeComponent />
+      </main>
     );
   }
 }

@@ -7,10 +7,10 @@ import { TopBarComponent } from '../StyledComponents/TopBar';
 
 const HeaderContainer = props => {
   return(
-  <div className={props.className}>
+  <header className={props.className}>
     <HeaderComponent />
     <TopBarComponent location={props.location} />
-  </div>);
+  </header>);
 };
 
 HeaderContainer.propTypes = {
