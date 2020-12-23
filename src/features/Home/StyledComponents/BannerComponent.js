@@ -300,23 +300,23 @@ max-width:100%!important;
     .cover-caption {
         position: absolute;
         z-index: 10;
-        top: 25%;
+        top: 20%;
         bottom: 0;
         left: 10%;
         font-weight: 800;
-        font-size: 8px;
+        font-size: 14px;
         color: #fff;
         text-transform: capitalize;
         margin: 15px 0;
-        width:35%;
+        width:50%;
     }
     .cover-text {
         position: absolute;
         z-index: 10;
-        top: 50%;
+        top: 55%;
         bottom: 0;
         left: 10%;
-        font-size: 5px;
+        font-size: 8px;
         color: #fff;
         text-transform: capitalize;
         margin: 15px 0;
