@@ -87,4 +87,19 @@ margin-bottom:2em;
     color: #ed1c24;
     line-height: 2.2em;
 }
+@media screen and (max-width: 736px){
+    .w3l_header {
+        font-size: 2.3em;
+    }
+  }
+  @media screen and (max-width: 414px){
+    .w3l_header {
+        font-size: 2.2em;
+    }
+  }
+  @media screen and (max-width: 384px){
+    .w3l_header {
+        font-size: 2em;
+    }
+  }
 `;
