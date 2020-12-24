@@ -2,6 +2,7 @@ import React, { Component} from 'react';
 import PropTypes from 'prop-types';
 import { BannerComponent } from '../StyledComponents/BannerComponent';
 import { WelcomeComponent } from '../StyledComponents/WelcomeComponent';
+import { ServicesComponent } from '../StyledComponents/Services';
 
 export class HomeContainer extends Component{
 
@@ -10,6 +11,7 @@ export class HomeContainer extends Component{
       <main className={this.props.className}>
         <BannerComponent />
         <WelcomeComponent />
+        <ServicesComponent />
       </main>
     );
   }

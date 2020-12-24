@@ -4,7 +4,7 @@ import WelcomeTitle from '../Components/WelcomeTitle';
 
 export const WelcomeComponent = styled(WelcomeTitle)`
   .two-grids {
-    padding:5em 0;
+    padding:2em 0;
   }
   .w3l_header {
     font-size: 3em;
@@ -25,7 +25,7 @@ export const WelcomeComponent = styled(WelcomeTitle)`
     margin: 8px auto 0;
   }  
   .wthree_head_section {
-    margin-bottom: 3em;
+    margin-bottom: 0em;
   }
   .wthree_head_section p {
     font-size: 15px;

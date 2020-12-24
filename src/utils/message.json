@@ -1,0 +1,30 @@
+{
+    "MESSAGE": {
+        "CAPTION":{
+            "TEXT": "Discover your favorite places with us",
+            "DESC": "Travel to your dream destination without going around in circles"
+        },
+        "WELCOME":{
+            "TEXT": "Lets enjoy the wonders of nature",
+            "DESC": "Travel to your dream destination without going around in circles"
+        },
+        "SITE":{
+            "NAME": "Royality Travel System",
+            "DESC": "We are a Kochi based travel agent focussing on custom tour packages, cab services and one way cab services."
+        },
+        "CONTACT_US":{
+            "ADDRESS":"Nedumbassery",
+            "CITY":"Kochi, Kerala, India",
+            "PHONE":"+91 808686 66993",
+            "EMAIL":"info@royalitytravelsystems.com"
+        },
+        "SERVICES": {
+            "EASY_TRIP_PLANNING" : "Allow us to plan your trip for a hassle free vacation.",
+            "SEASONED_AGENTS" : "Seasoned Agents with years of experience in trip planning.",
+            "CAB_SERVICES" : "Provides you cab services at competitive rates.",
+            "ONE_WAY_CAB_SERVICES" : "Option to choose from one way cab service."
+        }
+
+        
+    }
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import PropTypes from 'prop-types';
-import TEXT from './../message.json';
+import TEXT from '../../../utils/message.json';
 
 const WelcomeTitle = props => {
   return(

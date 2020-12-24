@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Route, withRouter, Switch } from 'react-router';
 import Authorization from './Authorization';
 import HeaderContainer from './features/Header';
+import FooterContainer from './features/Footer';
 
 const Home = async () => {
   const component = await import('./features/Home');
@@ -30,6 +31,7 @@ export class App extends Component {
       <div>
         <HeaderContainer />
         {this.appJsx()}
+        <FooterContainer />
       </div>
     );
   }
