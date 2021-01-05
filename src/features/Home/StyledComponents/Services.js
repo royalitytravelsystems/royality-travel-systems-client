@@ -99,7 +99,14 @@ margin-bottom:2em;
   }
   @media screen and (max-width: 384px){
     .w3l_header {
-        font-size: 2em;
+        font-size: 1.5em;
+    }
+    .w3_two_grid_right_gridr h4 {
+        font-size: 1em;
+    }
+    .w3_two_grid_right_gridr p{
+        line-height:1.8em;
+        font-size:13px;
     }
   }
 `;

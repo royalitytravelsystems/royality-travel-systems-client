@@ -10,7 +10,8 @@
         },
         "SITE":{
             "NAME": "Royality Travel System",
-            "DESC": "We are a Kochi based travel agent focussing on custom tour packages, cab services and one way cab services."
+            "DESC": "We are a Kochi based travel agent focussing on custom tour packages, cab services and one way cab services.",
+            "ABOUT_US": "We are a Kochi based travel agent focussing on custom tour packages, cab services and one way cab services. We provide affordable tour packages."
         },
         "CONTACT_US":{
             "ADDRESS":"Nedumbassery",

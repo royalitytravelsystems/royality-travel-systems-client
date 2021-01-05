@@ -48,12 +48,15 @@ export const WelcomeComponent = styled(WelcomeTitle)`
   }
   @media screen and (max-width: 384px){
     .w3l_header {
-        font-size: 2em;
+        font-size: 1.5em;
     }
   }
   @media screen and (max-width: 320px){
     .wthree_head_section {
         margin-bottom: 2em;
+    }
+    .wthree_head_section p {
+      font-size: 12px;
     }
   }
   
