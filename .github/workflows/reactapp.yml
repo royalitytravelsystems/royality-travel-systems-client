@@ -32,6 +32,6 @@ jobs:
       uses: peter-murray/inactive-users-action@v1
       with:
         token: ${{ secrets.ORGANIZATION_AND_REPO_ACCESS_TOKEN }}
-        organization: octodemo
+        organization: royality-travel-systems
         activity_days: 10
 
