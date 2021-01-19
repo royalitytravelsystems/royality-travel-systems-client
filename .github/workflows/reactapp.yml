@@ -30,4 +30,8 @@ jobs:
 
     - name: GitHub Organization User Activity Report
       uses: peter-murray/inactive-users-action@v1
+      with:
+        token: ${{ secrets.ORGANIZATION_AND_REPO_ACCESS_TOKEN }}
+        organization: octodemo
+        activity_days: 10
 
