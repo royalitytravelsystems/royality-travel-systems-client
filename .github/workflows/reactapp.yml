@@ -35,4 +35,8 @@ jobs:
         token: ${{ secrets.ORGANIZATION_AND_REPO_ACCESS_TOKEN }}
         organization: royality-travel-systems
         activity_days: 10
-
+    - name: Save User Activity Report
+      uses: actions/upload-artifact@v2
+      with:
+        name: reports
+        path: outputs.report_csv
