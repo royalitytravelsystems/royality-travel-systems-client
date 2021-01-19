@@ -16,7 +16,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [10.x, 12.x, 14.x]
+        node-version: [14.x]
 
     steps:
     - uses: actions/checkout@v2
@@ -29,10 +29,10 @@ jobs:
     - run: npm test
 
     - name: GitHub Organization User Activity Report
+      id: analyze_user_activity
       uses: peter-murray/inactive-users-action@v1
       with:
         token: ${{ secrets.ORGANIZATION_AND_REPO_ACCESS_TOKEN }}
         organization: royality-travel-systems
         activity_days: 10
-        run: echo Hello world ${{ secrets.ORGANIZATION_AND_REPO_ACCESS_TOKEN }}
 
