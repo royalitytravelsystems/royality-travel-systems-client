@@ -28,6 +28,3 @@ jobs:
     - run: npm run build --if-present
     - run: npm test
 
-    - name: GitHub Organization User Activity Report
-      uses: peter-murray/inactive-users-action@v1
-
